@@ -14,6 +14,7 @@ RUN dnf upgrade -y\
 		python2-pip-9.0.1-9.fc26\
 		xorg-x11-server-Xvfb-1.19.3-4.fc26\
 		which-2.21-2.fc26\
+		langpacks-ja\
 	&& dnf clean all
 
 RUN pip install robotframework==3.0.2\
