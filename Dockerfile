@@ -1,6 +1,6 @@
 FROM fedora:26
 
-MAINTAINER Paul Podgorsek <ppodgorsek@users.noreply.github.com>
+MAINTAINER Hiroshi Maekawa <posaunehm@users.noreply.github.com>
 LABEL description Robot Framework in Docker.
 
 VOLUME /opt/robotframework/reports
